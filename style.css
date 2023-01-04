@@ -1,0 +1,119 @@
+#main {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#contact {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+  background-color: aqua;
+  color: red;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 45px;
+  /* margin-inline-start um es in der Position zu verschieben  */
+  margin-inline-end: 20%;
+  /* margin-inline-end 
+    um Background Color Block zu ändern */
+    font-weight: bold;
+}
+
+h2 {
+  background-color: orange;
+  color: blue;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+}
+
+h3 {
+  color: purple;
+  background-color: goldenrod;
+  
+}
+ h3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.55em;
+    margin-block-end: 0.55em;
+    margin-inline-start: 0px;
+    margin-inline-end: 25%;
+    font-weight: bold;
+ }
+
+
+#p1 {
+  background-color: pink;
+}
+
+#h3 {
+  background-color: yellow;
+  color: black;
+}
+
+h4 {
+    display: block;
+    background-color: antiquewhite;
+    font-size: 1.em;
+    margin-block-start: 0.65em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  
+  color: palevioletred;
+}
+
+#lolli {
+  float: left;
+  border: 5px solid green;
+}
+
+#candy {
+  float: right;
+  border: 5px solid rgb(128, 0, 49);
+}
+
+#jelly {
+  float: left;
+  border: 5px solid gold;
+}
+
+a img {
+  width: 125px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+ul {
+  background-color: aqua;
+  list-style: none;
+  
+  
+}
+
+#contact a:visited {
+  color: rgb(0, 255, 13);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+li {
+    display:list-item;
+    
+}
+
+#drop {
+    text-decoration: underline;
+}
